@@ -1,0 +1,6 @@
+fine_tuned_model/pytorch_model.bin filter=lfs diff=lfs merge=lfs -text
+ArquivosBERT/pytorch_model.bin filter=lfs diff=lfs merge=lfs -text
+ArquivosBERT/* filter=lfs diff=lfs merge=lfs -text
+ArquivosBERT/fine_tuned_model/* filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+ArquivosBERT/fine_tuned_model/pytorch_model.bin filter=lfs diff=lfs merge=lfs -text
