@@ -10,7 +10,7 @@
 
 **Para isso, foram comparados dois modelos de aprendizado de máquina: BERTimbau, um modelo baseado em Transformer treinado para a língua portuguesa, e LSTM (Long Short-Term Memory), uma rede neural recorrente amplamente utilizada para processamento de sequências textuais.**
 
-
+##
 ### Base de Dados Utilizada Para o Treinamento Dos Modelos: GoEmotions
 Para treinar os modelos de Processamento de Linguagem Natural (PLN) na classificação de sentimentos, utilizamos a base de dados GoEmotions, desenvolvida pelo Google. Trata-se de um dataset de código aberto, amplamente utilizado na pesquisa de emoções em texto.
 
@@ -26,6 +26,7 @@ Como a base de dados original está em inglês, foi necessário realizar um proc
 
 Esses ajustes foram essenciais para que os modelos pudessem reconhecer sentimentos em textos escritos em português brasileiro, tornando a análise mais precisa e relevante para o contexto das avaliações.   
 
+##
 ### Base de Dados Com As Avaliações Públicas:   
 A primeira etapa para a criação da base de dados com as avaliações das quatro cidades consistiu na coleta de avaliações públicas disponíveis no Google Avaliações, utilizando técnicas de Web Scraping. O dataset final contém 4.766 avaliações, de um total de 103 unidades de saúde divididos entre as 4 cidades.
 
@@ -34,6 +35,7 @@ Para garantir a qualidade dos dados, foram realizadas as seguintes etapas de pr�
 ✅ Remoção de Stopwords para eliminar palavras irrelevantes para a análise de sentimento.   
 ✅ Correção ortográfica para evitar ruídos nos modelos de PLN.  
 
+##
 ### Modelos Utilizados:   
 Após pesquisar sobre as possíveis opções, foram selecionados e treinados dois modelos distintos para a classificação de sentimentos:
 
@@ -41,6 +43,8 @@ Após pesquisar sobre as possíveis opções, foram selecionados e treinados doi
 
 🔹 **LSTM (Long Short-Term Memory):** Uma rede neural recorrente projetada para capturar padrões em textos. É amplamente utilizada para PLN devido à sua capacidade de manter memória de longo prazo em textos. 
 
+
+##
 ### Classificação de Sentimentos:   
 Para categorizar os sentimentos expressos nos comentários, utilizou-se a Roda das Emoções de Plutchik, um modelo psicológico que classifica 27 emoções humanas e as agrupa em oito categorias principais:   
 
@@ -55,6 +59,7 @@ Para categorizar os sentimentos expressos nos comentários, utilizou-se a Roda d
    
 Essas categorias principais também foram agrupadas com a clássica classificação **Positiva**, **Neutra** e **Negativa**, para avaliações mais abrangentes. 
 
+##
 ### Resultados Obtidos:
 Após a aplicação dos modelos de PLN ao dataset de avaliações de saúde pública, observamos os seguintes insights:   
 
@@ -69,13 +74,14 @@ Após a aplicação dos modelos de PLN ao dataset de avaliações de saúde púb
 •	⏳ BERTimbau: 40,21 minutos   
 •	⏳ LSTM: 28,3 minutos   
 
-
+##
 ### Conclusões e Impacto do Projeto:
 📌 O uso de Inteligência Artificial aplicada à saúde pública permite extrair informações valiosas sobre a percepção da população em relação aos serviços oferecidos.   
 📌 O BERTimbau se mostrou uma alternativa mais robusta para a classificação de sentimentos em português, sendo uma ferramenta promissora para análises futuras.   
 📌 A análise indicou que, de forma sutil, os sentimentos expressos nas avaliações eram positivos, refletindo uma percepção favorável da população em relação aos serviços prestados pelas unidades de saúde estudadas.   
 📌 Com o crescimento da cultura do feedback digital, técnicas como PLN e aprendizado de máquina podem ser aplicadas para monitorar a satisfação dos cidadãos e auxiliar na tomada de decisões estratégicas para melhoria contínua dos serviços públicos.   
 
+##
 ### Tecnologias Utilizadas:   
 💻 Linguagem de Programação: Python    
 📊 Bibliotecas: Transformers, BertTokenizer, TensorFlow, Keras, Matplotlib, Seaborn, NumPy, Pandas   
@@ -84,7 +90,7 @@ Após a aplicação dos modelos de PLN ao dataset de avaliações de saúde púb
 📂 Ambiente de Desenvolvimento: Jupyter Notebook   
 
 
-
+##
 ### Acesse os arquivos para verificar outras informações do projeto.   
    
 Deixei alguns slides selecionados que ajudam no entendimento dos modelos e resultados.    
