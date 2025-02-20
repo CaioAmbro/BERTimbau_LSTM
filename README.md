@@ -85,6 +85,11 @@ Após a aplicação dos modelos de PLN ao dataset de avaliações de saúde púb
 
 
 
-### Acesse os arquivos para verificar outras informações do projeto. Também disponibilizarei o algoritmo do BERTimbau. 
- 
+### Acesse os arquivos para verificar outras informações do projeto.   
+   
+Deixei alguns slides selecionados que ajudam no entendimento dos modelos e resultados.    
+No arquivo ***AlgoritmoBERT.ipynb*** se encontra o código python.   
+Os arquivos da pasta ***fine_tuned_model*** são utilizados para rodar o BERTimbau em python.   
+O arquivo ***RESULTADOS_BERT*** é a ***BASE_CIDADES*** com os resultados do BERTimbau.   
+
 
